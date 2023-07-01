@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA 4 - LSWEB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <title>Lista de Compras</title>
+    <h1>Lista de Compras</h1>
+    
+    <form id="addItemForm">
+        <input type="text" id="itemName" placeholder="Nome do item" required>
+        <input type="number" id="itemPrice" placeholder="Preço" required>
+        <button type="submit">Adicionar</button>
+      </form>
+
+    <table id="itemTable">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Preço</th>
+            <th>Comprado</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="itemList">
+        </tbody>
+    </table>
+    
+    <script  src="lista.js"></script>
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

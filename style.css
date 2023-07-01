@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(90deg, rgba(65,184,131,1)0%, rgba(0,212,255,1)100%);
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+
+ }
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+table {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 8px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.completed {
+    text-decoration: line-through;
+}
